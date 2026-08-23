@@ -2,81 +2,110 @@
 <html lang="en">
 
 <head>
-
+    <!-- 字符编码，保证中文、英文都正常显示 -->
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <!-- 让网页在手机和平板上正常缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Publications | Your Name</title>
+    <!-- 浏览器标签页显示的标题 -->
+    <title>Shaode Yu | Personal Homepage</title>
 
+    <!-- 引入统一的 CSS 样式文件 -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 
 <body>
 
-<div class="page-container">
+    <!--
+        整个页面的总容器
+        里面包含：
+        1. 左侧 sidebar
+        2. 右侧 main content
+    -->
+    <div class="page-container">
 
 
-    <!-- Sidebar -->
-    <aside class="sidebar">
+        <!-- =====================================================
+             左侧导航栏
+        ====================================================== -->
+        <aside class="sidebar">
 
-        <div class="profile-block">
+            <!-- 姓名 -->
+            <div class="profile-block">
 
-            <h1 class="profile-name">
-                Your Name
-            </h1>
+                <h1 class="profile-name">
+                    Shaode Yu
+                </h1>
 
-            <p class="profile-title">
-                Master's Student in Artificial Intelligence
-            </p>
+                <p class="profile-title">
+                    Ph.D., Lecturer
+                </p>
 
-            <p class="profile-affiliation">
-                Communication University of China
-            </p>
+                <p class="profile-affiliation">
+                    Communication University of China, Beijing 100024, China
+                </p>
 
-        </div>
+            </div>
 
 
-        <nav class="menu">
+            <!-- 导航菜单 -->
+            <nav class="menu">
 
-            <a href="index.html">
-                Home
-            </a>
+                <a href="index.html" class="active">
+                    Home
+                </a>
 
-            <a href="research.html">
-                Research
-            </a>
+                <a href="publications.html">
+                    Publications
+                </a>
 
-            <a href="publications.html" class="active">
-                Publications
-            </a>
+                <a href="projects.html">
+                    Projects
+                </a>
 
-            <a href="projects.html">
-                Projects
-            </a>
+                <a href="teaching.html">
+                    Teaching
+                </a>
 
-            <a href="teaching.html">
-                Teaching
-            </a>
+                <a href="students.html">
+                    Students
+                </a>
 
-            <a href="students.html">
-                Students
-            </a>
+                <a href="awards.html">
+                    Awards
+                </a>
 
-            <a href="awards.html">
-                Awards
-            </a>
+                <a href="education.html">
+                    Education
+                </a>
 
-            <a href="contact.html">
-                Contact
-            </a>
+                <a href="work.html">
+                    Work Experience
+                </a>
 
-        </nav>
+                <a href="contact.html">
+                    Contact
+                </a>
 
-    </aside>
+            </nav>
+
+
+            <!-- 左侧底部联系方式 -->
+            <div class="sidebar-footer">
+
+                <p>
+                    Email
+                </p>
+
+                <a href="mailto:yushaodemia@163.com">
+                    yushaodemia@163.com
+                </a>
+
+            </div>
+
+        </aside>
 
 
 
@@ -86,10 +115,8 @@
         <section class="section">
 
             <h2>Publications</h2>
-
-            <p>
+            
                 Selected publications are listed below.
-            </p>
 
         </section>
 
@@ -103,35 +130,13 @@
             <div class="publication-item">
 
                 <p>
-
-                    <strong>
-                        [J1] Paper Title
-                    </strong>
-
-                    <br>
-
-                    Author A,
-                    <strong>Your Name</strong>,
-                    Author C.
-
-                    <br>
-
-                    <em>
-                        Journal Name
-                    </em>,
-                    2026.
-
-                    <br>
-
-                    <a href="#" target="_blank">
-                        Paper
-                    </a>
-
-                    |
-
-                    <a href="#" target="_blank">
+                    [J1] B Zhu, E Chen, M Huang, X Ren, <strong>S Yu</strong>, Q Sun. 
+                    <em>GLUQ: Global-local representation learning for UHD image quality assessment</em>. 
+                    Entropy 28 (8), 861, 2026. 
+                    <a href="https://github.com/NicoYuCN/GLUQ" target="_blank">
                         Code
                     </a>
+                    <br>
 
                 </p>
 
@@ -150,25 +155,25 @@
             <div class="publication-item">
 
                 <p>
-
-                    <strong>
-                        [C1] Conference Paper Title
-                    </strong>
-
+                    [C1] <strong>S Yu</strong>, Chen Z, Yang Z, Gu J, Feng B, Sun Q. 
+                    <em>Exploring Kolmogorov-Arnold networks for realistic image sharpness assessment</em>. 
+                    ICASSP pp. 1-5, 2025 
+                    <a href="https://github.com/ZeChen-AI/KAN4IQA" target="_blank">
+                        Code
+                    </a>
                     <br>
-
-                    Your Name,
-                    Author B,
-                    Author C.
-
-                    <br>
-
-                    <em>
-                        Conference Name
-                    </em>,
-                    2025.
-
                 </p>
+
+                <p>
+                    [C2] <strong>S Yu</strong>, Jiang F, Li L, Xie Y. 
+                    <em>CNN-GRNN for image sharpness assessment</em>. 
+                    ACCV pp. 50-61, 2016 
+                    <a href="https://github.com/NicoYuCN/PlosOneIQA" target="_blank">
+                        Code
+                    </a>
+                    <br>
+                </p>
+
 
             </div>
 
