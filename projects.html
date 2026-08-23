@@ -2,80 +2,110 @@
 <html lang="en">
 
 <head>
-
+    <!-- 字符编码，保证中文、英文都正常显示 -->
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <!-- 让网页在手机和平板上正常缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Projects | Your Name</title>
+    <!-- 浏览器标签页显示的标题 -->
+    <title>Shaode Yu | Personal Homepage</title>
 
+    <!-- 引入统一的 CSS 样式文件 -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 
 <body>
 
-<div class="page-container">
+    <!--
+        整个页面的总容器
+        里面包含：
+        1. 左侧 sidebar
+        2. 右侧 main content
+    -->
+    <div class="page-container">
 
 
-    <aside class="sidebar">
+        <!-- =====================================================
+             左侧导航栏
+        ====================================================== -->
+        <aside class="sidebar">
 
-        <div class="profile-block">
+            <!-- 姓名 -->
+            <div class="profile-block">
 
-            <h1 class="profile-name">
-                Your Name
-            </h1>
+                <h1 class="profile-name">
+                    Shaode Yu
+                </h1>
 
-            <p class="profile-title">
-                Master's Student in Artificial Intelligence
-            </p>
+                <p class="profile-title">
+                    Ph.D., Lecturer
+                </p>
 
-            <p class="profile-affiliation">
-                Communication University of China
-            </p>
+                <p class="profile-affiliation">
+                    Communication University of China, Beijing 100024, China
+                </p>
 
-        </div>
+            </div>
 
 
-        <nav class="menu">
+            <!-- 导航菜单 -->
+            <nav class="menu">
 
-            <a href="index.html">
-                Home
-            </a>
+                <a href="index.html" class="active">
+                    Home
+                </a>
 
-            <a href="research.html">
-                Research
-            </a>
+                <a href="publications.html">
+                    Publications
+                </a>
 
-            <a href="publications.html">
-                Publications
-            </a>
+                <a href="projects.html">
+                    Projects
+                </a>
 
-            <a href="projects.html" class="active">
-                Projects
-            </a>
+                <a href="teaching.html">
+                    Teaching
+                </a>
 
-            <a href="teaching.html">
-                Teaching
-            </a>
+                <a href="students.html">
+                    Students
+                </a>
 
-            <a href="students.html">
-                Students
-            </a>
+                <a href="awards.html">
+                    Awards
+                </a>
 
-            <a href="awards.html">
-                Awards
-            </a>
+                <a href="education.html">
+                    Education
+                </a>
 
-            <a href="contact.html">
-                Contact
-            </a>
+                <a href="work.html">
+                    Work Experience
+                </a>
 
-        </nav>
+                <a href="contact.html">
+                    Contact
+                </a>
 
-    </aside>
+            </nav>
+
+
+            <!-- 左侧底部联系方式 -->
+            <div class="sidebar-footer">
+
+                <p>
+                    Email
+                </p>
+
+                <a href="mailto:yushaodemia@163.com">
+                    yushaodemia@163.com
+                </a>
+
+            </div>
+
+        </aside>
 
 
 
